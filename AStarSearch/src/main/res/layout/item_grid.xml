@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/cell_size"
+    android:layout_height="@dimen/cell_size"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tl"
+        android:padding="2dp"
+        android:textSize="@dimen/cell_corner_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/tr"
+        android:padding="2dp"
+        android:textSize="@dimen/cell_corner_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/bl"
+        android:padding="2dp"
+        android:textSize="@dimen/cell_corner_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/br"
+        android:padding="2dp"
+        android:textSize="@dimen/cell_corner_text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/centre"
+        android:padding="2dp"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:text="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+</RelativeLayout>
